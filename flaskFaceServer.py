@@ -24,9 +24,9 @@ if not os.path.exists(UPLOAD_FOLDER):
 
 # Database configuration
 db_config = {
-    "host": os.getenv("DB_HOST", "localhost"),
+    "host": os.getenv("DB_HOST", "46.202.163.32"),
     "port": int(os.getenv("DB_PORT", "3306")),
-    "database": os.getenv("DB_NAME", "cms_electrical"),
+    "database": os.getenv("DB_NAME", "erp"),
     "user": os.getenv("DB_USER", "root"),
     "password": os.getenv("DB_PASSWORD", "Rohit@2309"),
     "pool_name": "mypool",
